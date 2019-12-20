@@ -1,0 +1,10 @@
+import numpy as np
+a=np.arange(12).reshape(3,4)
+print("\n2d array :\n",a)
+print("shape :",a.shape)
+b=np.insert(a,[2],[[6],[9],],axis=0)
+print("array after insertion :",b)
+print("shape",b.shape)
+b=np.insert(a,[1],[[7],[8],[9]],axis=1)
+print("array after insertion :",b)
+print("shape ",b.shape)

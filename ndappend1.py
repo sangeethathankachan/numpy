@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]])
+print("first array")
+print(a)
+print("append elements to array")
+print(np.append(a,[7,8,9]))
+print("append along axis 0")
+print(np.append(a,[[7,8,9]],axis=0))
+print("append along axis 1")
+print(np.append(a,[[5,4,3],[7,8,9]],axis=1))
